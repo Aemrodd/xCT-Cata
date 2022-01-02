@@ -435,14 +435,14 @@ local function UpdateAuraTracking(unit)
 
   if entry then
     if unit == entry.unit then
-      local i, name, _, _, count, _, _, _, _, _, _, spellId = 1, UnitBuff(entry.unit, 1)
+      local i, name, _, icon, count, _, _, _, _, _, _, spellId = 1, UnitBuff(entry.unit, 1)
 
       while name do
         if entry.id == spellId then
           break
         end
         i = i + 1;
-        name, _, _, count, _, _, _, _, _, _, spellId = UnitBuff(entry.unit, i)
+        name, _, icon, count, _, _, _, _, _, _, spellId = UnitBuff(entry.unit, i)
       end
 
       if name and count > 0 then
@@ -1200,7 +1200,7 @@ x.outgoing_events = {
   ["RANGE_DAMAGE"] = function(...)
       if not ShowDamage() then return end
 
-      local _, _, sourceGUID, _, sourceFlags, _, _, _, spellID, _, _, amount, _, _, _, _, _, critical = ...
+      local _, _, _, sourceGUID, _, sourceFlags, _, _, _, _, _, spellID, _, _, amount, _, _, _, _, _, critical = ...
       local outputFrame, message, outputColor = "outgoing", x:Abbreviate(amount, "outgoing"), "genericDamage"
       local merged, critMessage = false, nil
 

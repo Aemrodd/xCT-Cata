@@ -350,12 +350,12 @@ end
 --]=====================================================]
 function x:GetSpellTextureFormatted(spellID, iconSize)
   local message = ""
-
-  if spellID == 0 or spellID == PET_ATTACK_TEXTURE then
+ 
+  if spellID == 0 then
     message = sformat(format_spell_icon, PET_ATTACK_TEXTURE, iconSize, iconSize)
   else
     local spellName, _, fallbackTexture = GetSpellInfo(spellID)
-    local icon = GetSpellTexture(spellName)
+    local icon = GetSpellTexture(spellID)
 
     if (not icon) or (not spellName) then
       icon = GetSpellTexture(spellID) or fallbackTexture
@@ -1336,7 +1336,7 @@ x.outgoing_events = {
   ["SPELL_PERIODIC_DAMAGE"] = function(...)
       if not ShowDamage() or not ShowDots() then return end
 
-      local _, _, _, sourceGUID, _, sourceFlags, _, destGUID, _, _, _, spellID, _, spellSchool, amount, _, _, _, _, _, critical = ...
+      local _, _, _, sourceGUID, _, sourceFlags, _, _, _, _, _, spellID, _, spellSchool, amount, _, _, _, _, _, critical = ...
       local outputFrame, message, outputColor = "outgoing", x:Abbreviate(amount, "outgoing"), "genericDamage"
       local merged = false
 

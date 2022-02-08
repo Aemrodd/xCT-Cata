@@ -57,33 +57,39 @@ addon.merges = {
   [49184]  = CreateMergeSpellEntry("DEATHKNIGHT", .5),      -- Howling Blast
   [55050]  = CreateMergeSpellEntry("DEATHKNIGHT", .5),      -- Heart Strike
   [52212]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Death and Decay
-  [50526]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Wondering Plague
+  [50526]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Wandering Plague
 
 -- death knight (healing)
   [50475]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Blood Presence
   [53365]  = CreateMergeSpellEntry("DEATHKNIGHT", 4),   -- Unholy Strength
 
 -- druid (damage)
-  [8921]   = CreateMergeSpellEntry("DRUID"),          -- Moonfire
-  [5570]   = CreateMergeSpellEntry("DRUID"),          -- Insect Swarm
-  [48466]  = CreateMergeSpellEntry("DRUID"),          -- Hurricane
-  [50288]  = CreateMergeSpellEntry("DRUID"),          -- Starfall
-  [53190]  = CreateMergeSpellEntry("DRUID", .8),      -- Starfall aoe 10 ticks
-  [53227]  = CreateMergeSpellEntry("DRUID", .5),      -- Typhoon
-  [1822]   = CreateMergeSpellEntry("DRUID"),          -- Rake
-  [62078]  = CreateMergeSpellEntry("DRUID", .5),      -- Swipe (Cat Form)
-  [48562]  = CreateMergeSpellEntry("DRUID", .5),      -- Swipe (Bear Form)
-  [33745]  = CreateMergeSpellEntry("DRUID"),          -- Lacerate
-  [1079]   = CreateMergeSpellEntry("DRUID", 2),       -- Rip
-
+  [81281]   = CreateMergeSpellEntry("DRUID"),			-- Fungal Growth
+  [8921]   = CreateMergeSpellEntry("DRUID", 2),			-- Moonfire
+  [5570]   = CreateMergeSpellEntry("DRUID", 2),			-- Insect Swarm
+  [42231]  = CreateMergeSpellEntry("DRUID"),			-- Hurricane
+  [97547]   = CreateMergeSpellEntry("DRUID"),			-- Solar Beam
+  [50288]  = CreateMergeSpellEntry("DRUID"),			-- Starfall
+  [53190]  = CreateMergeSpellEntry("DRUID", .8),		-- Starfall aoe 10 ticks
+  [53227]  = CreateMergeSpellEntry("DRUID", .5),		-- Typhoon
+  [78777]   = CreateMergeSpellEntry("DRUID"),			-- Wild Mushroom
+  
+  [6807]   = CreateMergeSpellEntry("DRUID"),			-- Maul
+  [1822]   = CreateMergeSpellEntry("DRUID"),			-- Rake
+  [62078]  = CreateMergeSpellEntry("DRUID", .5),		-- Swipe (Cat Form)
+  [48562]  = CreateMergeSpellEntry("DRUID", .5),		-- Swipe (Bear Form)
+  [33745]  = CreateMergeSpellEntry("DRUID"),			-- Lacerate
+  [1079]   = CreateMergeSpellEntry("DRUID", 2),			-- Rip
+  [77758]  = CreateMergeSpellEntry("DRUID", .5),		-- Thrash
 
 -- druid (healing)
-  [774]    = CreateMergeSpellEntry("DRUID"),          -- Rejuvenation (Normal)
-  [64801]  = CreateMergeSpellEntry("DRUID"),          -- Rejuvenation (First tick)
-  [48438]  = CreateMergeSpellEntry("DRUID"),          -- Wild Growth
-  [8936]   = CreateMergeSpellEntry("DRUID"),          -- Regrowth
-  [33763]  = CreateMergeSpellEntry("DRUID"),          -- Lifebloom
-  [48445]  = CreateMergeSpellEntry("DRUID"),          -- Tranquility
+  [81269]  = CreateMergeSpellEntry("DRUID", 3),			-- Efflorescence
+  [33763]  = CreateMergeSpellEntry("DRUID"),			-- Lifebloom
+  [8936]   = CreateMergeSpellEntry("DRUID"),			-- Regrowth
+  [774]    = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (Normal)
+  [64801]  = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (First tick)
+  [48445]  = CreateMergeSpellEntry("DRUID"),			-- Tranquility
+  [48438]  = CreateMergeSpellEntry("DRUID", 3),			-- Wild Growth
 
 -- hunter
   [49048]  = CreateMergeSpellEntry("HUNTER", .5),      -- Multi-Shot
@@ -120,7 +126,7 @@ addon.merges = {
   [61840]  = CreateMergeSpellEntry("PALADIN"),          -- Righteous vengeance
 
 -- paladin (healing)
-  [54172]  = CreateMergeSpellEntry("PALADIN"),          -- Divinge Storm
+  [54172]  = CreateMergeSpellEntry("PALADIN"),          -- Divine Storm
   [53652]  = CreateMergeSpellEntry("PALADIN"),          -- Beacon of Light
   [20167]  = CreateMergeSpellEntry("PALADIN"),          -- Seal of Insight (Heal Effect)
   [54968]  = CreateMergeSpellEntry("PALADIN", 1),       -- Holy Light Glyph AoE
@@ -155,18 +161,19 @@ addon.merges = {
   [57965]  = CreateMergeSpellEntry("ROGUE"),          -- Instant Poison
 
 -- shaman (damage)
-  [49271]  = CreateMergeSpellEntry("SHAMAN", .5),      -- Chain Lightning
-  [61654]  = CreateMergeSpellEntry("SHAMAN"),          -- Fire Nova
-  [59159]  = CreateMergeSpellEntry("SHAMAN"),          -- Thunderstorm
-  [58735]  = CreateMergeSpellEntry("SHAMAN", .5),      -- Magma Totem
-  [8050]  = CreateMergeSpellEntry("SHAMAN"),           -- Flame Shock
-  [25504]  = CreateMergeSpellEntry("SHAMAN", .5),      -- Windfury
+  [421]  = CreateMergeSpellEntry("SHAMAN", .5),			-- Chain Lightning
+  [61654]  = CreateMergeSpellEntry("SHAMAN"),			-- Fire Nova
+  [59159]  = CreateMergeSpellEntry("SHAMAN"),			-- Thunderstorm
+  [58735]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Magma Totem
+  [8050]  = CreateMergeSpellEntry("SHAMAN"),			-- Flame Shock
+  [25504]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Windfury
 
 -- shaman (healing)
   [55459]  = CreateMergeSpellEntry("SHAMAN", .5),      -- Chain Heal
-  [52042]  = CreateMergeSpellEntry("SHAMAN", 4),       -- Healing Stream Totem
+  [52042]  = CreateMergeSpellEntry("SHAMAN", 10),      -- Healing Stream Totem
   [52000]  = CreateMergeSpellEntry("SHAMAN"),          -- Earthliving
   [61295]  = CreateMergeSpellEntry("SHAMAN"),          -- Riptide (Instant & HoT)
+  [73921]  = CreateMergeSpellEntry("SHAMAN"),          -- Healing Rain
 
 -- warlock (damage)
   [27243]  = CreateMergeSpellEntry("WARLOCK"),          -- Seed of Corruption (DoT)
@@ -215,17 +222,18 @@ addon.merge2h = {
   [55362]  = 44457,    -- Living Bomb (DOT)
 
   -- Priest (Damage)
-  [49821]  = 53022,    -- Mind Sear
+  [49821]  = 53022,		-- Mind Sear
 
   -- Druid (Damage)
-  [53195]  = 53190,    -- Starfall aoe 2
+  [53195]  = 53190,		-- Starfall aoe 2
+  [81281] = 78777,		-- Fungal Growth
 
   -- Rogue (Damage)
   [2818]   = 57970,    -- Deadly Poison (DoT)
   [52874]  = 51723,    -- Fan of knives OH
 
   -- Shaman (damage)
-  [45297]  = 49271,    -- Chain Lightning (Lightning Overload)
+  [45297]  = 421,    -- Chain Lightning (Lightning Overload)
   [32176]  = 32175,    -- Stormstrike
 
   -- Warlock (Damage)

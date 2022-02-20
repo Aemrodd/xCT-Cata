@@ -61,35 +61,35 @@ addon.merges = {
 
 -- death knight (healing)
   [50475]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Blood Presence
-  [53365]  = CreateMergeSpellEntry("DEATHKNIGHT", 4),   -- Unholy Strength
+  [53365]  = CreateMergeSpellEntry("DEATHKNIGHT", 4),		-- Unholy Strength
 
 -- druid (damage)
-  [81281]   = CreateMergeSpellEntry("DRUID"),			-- Fungal Growth
-  [8921]   = CreateMergeSpellEntry("DRUID", 2),			-- Moonfire
-  [5570]   = CreateMergeSpellEntry("DRUID", 2),			-- Insect Swarm
-  [42231]  = CreateMergeSpellEntry("DRUID"),			-- Hurricane
-  [97547]   = CreateMergeSpellEntry("DRUID"),			-- Solar Beam
-  [50288]  = CreateMergeSpellEntry("DRUID"),			-- Starfall
-  [53190]  = CreateMergeSpellEntry("DRUID", .8),		-- Starfall aoe 10 ticks
-  [53227]  = CreateMergeSpellEntry("DRUID", .5),		-- Typhoon
-  [78777]   = CreateMergeSpellEntry("DRUID"),			-- Wild Mushroom
+	[81281]   = CreateMergeSpellEntry("DRUID"),			-- Fungal Growth
+	[8921]   = CreateMergeSpellEntry("DRUID", 2),		-- Moonfire
+	[5570]   = CreateMergeSpellEntry("DRUID", 2),		-- Insect Swarm
+	[42231]  = CreateMergeSpellEntry("DRUID"),			-- Hurricane
+	[97547]   = CreateMergeSpellEntry("DRUID"),			-- Solar Beam
+	[50288]  = CreateMergeSpellEntry("DRUID"),			-- Starfall
+	[53190]  = CreateMergeSpellEntry("DRUID", .8),		-- Starfall aoe 10 ticks
+	[53227]  = CreateMergeSpellEntry("DRUID", .5),		-- Typhoon
+	[78777]   = CreateMergeSpellEntry("DRUID"),			-- Wild Mushroom
   
-  [6807]   = CreateMergeSpellEntry("DRUID"),			-- Maul
-  [1822]   = CreateMergeSpellEntry("DRUID"),			-- Rake
-  [62078]  = CreateMergeSpellEntry("DRUID", .5),		-- Swipe (Cat Form)
-  [48562]  = CreateMergeSpellEntry("DRUID", .5),		-- Swipe (Bear Form)
-  [33745]  = CreateMergeSpellEntry("DRUID"),			-- Lacerate
-  [1079]   = CreateMergeSpellEntry("DRUID", 2),			-- Rip
-  [77758]  = CreateMergeSpellEntry("DRUID", .5),		-- Thrash
+	[6807]   = CreateMergeSpellEntry("DRUID"),			-- Maul
+	[1822]   = CreateMergeSpellEntry("DRUID"),			-- Rake
+	[62078]  = CreateMergeSpellEntry("DRUID", .5),		-- Swipe (Cat Form)
+	[48562]  = CreateMergeSpellEntry("DRUID", .5),		-- Swipe (Bear Form)
+	[33745]  = CreateMergeSpellEntry("DRUID", 2),		-- Lacerate
+	[1079]   = CreateMergeSpellEntry("DRUID", 2),		-- Rip
+	[77758]  = CreateMergeSpellEntry("DRUID", .5),		-- Thrash
 
 -- druid (healing)
-  [81269]  = CreateMergeSpellEntry("DRUID", 3),			-- Efflorescence
-  [33763]  = CreateMergeSpellEntry("DRUID"),			-- Lifebloom
-  [8936]   = CreateMergeSpellEntry("DRUID"),			-- Regrowth
-  [774]    = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (Normal)
-  [64801]  = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (First tick)
-  [48445]  = CreateMergeSpellEntry("DRUID"),			-- Tranquility
-  [48438]  = CreateMergeSpellEntry("DRUID", 3),			-- Wild Growth
+	[81269]  = CreateMergeSpellEntry("DRUID", 3),		-- Efflorescence
+	[33763]  = CreateMergeSpellEntry("DRUID"),			-- Lifebloom
+	[8936]   = CreateMergeSpellEntry("DRUID"),			-- Regrowth
+	[774]    = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (Normal)
+	[64801]  = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (First tick)
+	[48445]  = CreateMergeSpellEntry("DRUID"),			-- Tranquility
+	[48438]  = CreateMergeSpellEntry("DRUID", 3),		-- Wild Growth
 
 -- hunter
   [49048]  = CreateMergeSpellEntry("HUNTER", .5),      -- Multi-Shot
@@ -100,9 +100,7 @@ addon.merges = {
 -- mage
   [44461]  = CreateMergeSpellEntry("MAGE"),          -- Living Bomb Explosion
   [44457]  = CreateMergeSpellEntry("MAGE"),          -- Living Bomb Dot
-  [27086]  = CreateMergeSpellEntry("MAGE", 4),       -- Flamestrike (Rank 7)
-  [42925]  = CreateMergeSpellEntry("MAGE", 4),       -- Flamestrike (Rank 8)
-  [42926]  = CreateMergeSpellEntry("MAGE", 4),       -- Flamestrike (Rank 9)
+  [42926]  = CreateMergeSpellEntry("MAGE", 4),       -- Flamestrike
   [12654]  = CreateMergeSpellEntry("MAGE"),          -- Ignite
   [11366]  = CreateMergeSpellEntry("MAGE"),          -- Pyroblast
   [42950]  = CreateMergeSpellEntry("MAGE", .5),      -- Dragon's Breath
@@ -114,59 +112,71 @@ addon.merges = {
   [1449]   = CreateMergeSpellEntry("MAGE", .5),      -- Arcane Explosion
 
 -- paladin (damage)
-  [2812]   = CreateMergeSpellEntry("PALADIN", .5),      -- Holy Wrath
-  [53385]  = CreateMergeSpellEntry("PALADIN", .5),      -- Divine Storm
-  [31803]  = CreateMergeSpellEntry("PALADIN", 6),       -- Censure
-  [48819]  = CreateMergeSpellEntry("PALADIN", 8),       -- Consecration
-  [20424]  = CreateMergeSpellEntry("PALADIN", 1),       -- Seals of Command
-  [42463]  = CreateMergeSpellEntry("PALADIN"),          -- Seal of Truth
-  [20187]  = CreateMergeSpellEntry("PALADIN"),          -- Seal of Righteousness
-  [53595]  = CreateMergeSpellEntry("PALADIN"),          -- Hammer of the Righteous
-  [31935]  = CreateMergeSpellEntry("PALADIN"),          -- Avenger's Shield
-  [61840]  = CreateMergeSpellEntry("PALADIN"),          -- Righteous vengeance
+	[2812]   = CreateMergeSpellEntry("PALADIN", .5),	-- Holy Wrath
+	[53385]  = CreateMergeSpellEntry("PALADIN", .5),	-- Divine Storm
+	[96172]  = CreateMergeSpellEntry("PALADIN", .5),	-- Hand of Light
+	[31803]  = CreateMergeSpellEntry("PALADIN", 6),		-- Censure
+	[81297]  = CreateMergeSpellEntry("PALADIN", 8),		-- Consecration
+	[20424]  = CreateMergeSpellEntry("PALADIN", 1),		-- Seals of Command
+	[42463]  = CreateMergeSpellEntry("PALADIN"),		-- Seal of Truth
+	[101423]  = CreateMergeSpellEntry("PALADIN"),		-- Seal of Righteousness
+	[88263]  = CreateMergeSpellEntry("PALADIN"),		-- Hammer of the Righteous
+	[31935]  = CreateMergeSpellEntry("PALADIN"),		-- Avenger's Shield
+
 
 -- paladin (healing)
-  [54172]  = CreateMergeSpellEntry("PALADIN"),          -- Divine Storm
-  [53652]  = CreateMergeSpellEntry("PALADIN"),          -- Beacon of Light
-  [20167]  = CreateMergeSpellEntry("PALADIN"),          -- Seal of Insight (Heal Effect)
-  [54968]  = CreateMergeSpellEntry("PALADIN", 1),       -- Holy Light Glyph AoE
-  [20267]  = CreateMergeSpellEntry("PALADIN", 5),       -- Judgement of light AoE
+	[54172]  = CreateMergeSpellEntry("PALADIN"),		-- Divine Storm
+	[53652]  = CreateMergeSpellEntry("PALADIN"),		-- Beacon of Light
+	[20167]  = CreateMergeSpellEntry("PALADIN"),		-- Seal of Insight (Heal Effect)
+	[54968]  = CreateMergeSpellEntry("PALADIN", 1),		-- Holy Light Glyph AoE
+	[20267]  = CreateMergeSpellEntry("PALADIN", 5),		-- Judgement of light AoE
+	[82327]  = CreateMergeSpellEntry("PALADIN", 2),		-- Holy Radiance (HoT)
+	[86452]  = CreateMergeSpellEntry("PALADIN", 2),		-- Holy Radiance	
+	[86678]  = CreateMergeSpellEntry("PALADIN", 2),		-- Light of the Ancient Kings
 
 -- priest (damage)
-  [47666]  = CreateMergeSpellEntry("PRIEST"),          -- Penance (Damage Effect)
-  [48078]  = CreateMergeSpellEntry("PRIEST", .5),       -- Holy Nova (Damage Effect)
-  [589]    = CreateMergeSpellEntry("PRIEST", 6),       -- Shadow Word: Pain
-  [34914]  = CreateMergeSpellEntry("PRIEST", 6),       -- Vampiric Touch
-  [63675]  = CreateMergeSpellEntry("PRIEST"),          -- Improved Devouring Plague
-  [15407]  = CreateMergeSpellEntry("PRIEST"),          -- Mind Flay
-  [53022]  = CreateMergeSpellEntry("PRIEST"),          -- Mind Seer
+	[47666]  = CreateMergeSpellEntry("PRIEST"),			-- Penance (Damage Effect)
+	[15237]  = CreateMergeSpellEntry("PRIEST", .5),		-- Holy Nova (Damage Effect)
+	[589]    = CreateMergeSpellEntry("PRIEST", 6),		-- Shadow Word: Pain
+	[34914]  = CreateMergeSpellEntry("PRIEST", 6),		-- Vampiric Touch
+	[63675]  = CreateMergeSpellEntry("PRIEST"),			-- Improved Devouring Plague
+  	[2944]  = CreateMergeSpellEntry("PRIEST"),          -- Devouring Plague
+	[15407]  = CreateMergeSpellEntry("PRIEST", 2),		-- Mind Flay
+	[49821]  = CreateMergeSpellEntry("PRIEST"),			-- Mind Seer
+	[87532]  = CreateMergeSpellEntry("PRIEST"),			-- Shadowy Apparition
 
 -- priest (healing)
-  [47750]  = CreateMergeSpellEntry("PRIEST"),          -- Penance (Heal Effect)
-  [139]    = CreateMergeSpellEntry("PRIEST"),          -- Renew
-  [596]    = CreateMergeSpellEntry("PRIEST", .5),      -- Prayer of Healing
-  [56161]  = CreateMergeSpellEntry("PRIEST"),          -- Glyph of Prayer of Healing
-  [64844]  = CreateMergeSpellEntry("PRIEST"),          -- Divine Hymn
-  [32546]  = CreateMergeSpellEntry("PRIEST"),          -- Binding Heal
-  [34861]  = CreateMergeSpellEntry("PRIEST", .5),      -- Circle of Healing
-  [23455]  = CreateMergeSpellEntry("PRIEST"),          -- Holy Nova (Healing Effect)
-  [33110]  = CreateMergeSpellEntry("PRIEST"),          -- Prayer of Mending
-  [63544]  = CreateMergeSpellEntry("PRIEST"),          -- Divine Touch
-  [2944]   = CreateMergeSpellEntry("PRIEST", 6.5),     -- Devouring Plague (Healing)
-  [15290]  = CreateMergeSpellEntry("PRIEST", 5),       -- Vampiric Embrace
+	[47750]  = CreateMergeSpellEntry("PRIEST"),			-- Penance (Heal Effect)
+	[139]    = CreateMergeSpellEntry("PRIEST"),			-- Renew
+	[77489] = CreateMergeSpellEntry("PRIEST", 2),		-- Echo of Light
+	[88686] = CreateMergeSpellEntry("PRIEST", .5),		-- Holy Word: Sanctuary
+	[596]    = CreateMergeSpellEntry("PRIEST", .5),		-- Prayer of Healing
+	[56161]  = CreateMergeSpellEntry("PRIEST"),			-- Glyph of Prayer of Healing
+	[64844]  = CreateMergeSpellEntry("PRIEST"),			-- Divine Hymn
+	[32546]  = CreateMergeSpellEntry("PRIEST"),			-- Binding Heal
+	[34861]  = CreateMergeSpellEntry("PRIEST", .5),		-- Circle of Healing
+	[23455]  = CreateMergeSpellEntry("PRIEST"),			-- Holy Nova (Healing Effect)
+	[33110]  = CreateMergeSpellEntry("PRIEST"),			-- Prayer of Mending
+	[63544]  = CreateMergeSpellEntry("PRIEST"),			-- Divine Touch
+	[2944]   = CreateMergeSpellEntry("PRIEST", 6.5),	-- Devouring Plague (Healing)
+	[75999]   = CreateMergeSpellEntry("PRIEST", 6.5),	-- Improved Devouring Plague (Healing)
+	[15290]  = CreateMergeSpellEntry("PRIEST"),			-- Vampiric Embrace
 
 -- rogue
-  [51723]  = CreateMergeSpellEntry("ROGUE", .5),      -- Fan of Knives (H1)
-  [57970]  = CreateMergeSpellEntry("ROGUE"),          -- Deadly Poison
-  [57965]  = CreateMergeSpellEntry("ROGUE"),          -- Instant Poison
+	[51723]  = CreateMergeSpellEntry("ROGUE", .5),      -- Fan of Knives (H1)
+	[2818]  = CreateMergeSpellEntry("ROGUE"),			-- Deadly Poison
+	[8680]  = CreateMergeSpellEntry("ROGUE"),			-- Instant Poison  
+	[57841]  = CreateMergeSpellEntry("ROGUE", 2),		-- Killing Spree
+	[22842]  = CreateMergeSpellEntry("ROGUE", 2),		-- Killing Spree
+	[22482]  = CreateMergeSpellEntry("ROGUE", 1),		-- Blade Flurry
 
 -- shaman (damage)
-  [421]  = CreateMergeSpellEntry("SHAMAN", .5),			-- Chain Lightning
-  [61654]  = CreateMergeSpellEntry("SHAMAN"),			-- Fire Nova
-  [59159]  = CreateMergeSpellEntry("SHAMAN"),			-- Thunderstorm
-  [58735]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Magma Totem
-  [8050]  = CreateMergeSpellEntry("SHAMAN"),			-- Flame Shock
-  [25504]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Windfury
+	[421]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Chain Lightning
+	[61654]  = CreateMergeSpellEntry("SHAMAN"),			-- Fire Nova
+	[59159]  = CreateMergeSpellEntry("SHAMAN"),			-- Thunderstorm
+	[8187]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Magma Totem
+	[8050]  = CreateMergeSpellEntry("SHAMAN"),			-- Flame Shock
+	[25504]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Windfury
 
 -- shaman (healing)
   [55459]  = CreateMergeSpellEntry("SHAMAN", .5),      -- Chain Heal
@@ -229,12 +239,12 @@ addon.merge2h = {
   [81281] = 78777,		-- Fungal Growth
 
   -- Rogue (Damage)
-  [2818]   = 57970,    -- Deadly Poison (DoT)
-  [52874]  = 51723,    -- Fan of knives OH
+	[2818]   = 57970,		-- Deadly Poison (DoT)
+	[57842]  = 57841,		-- Killing Spree OH
 
   -- Shaman (damage)
-  [45297]  = 421,    -- Chain Lightning (Lightning Overload)
-  [32176]  = 32175,    -- Stormstrike
+	[45297]  = 421,			-- Chain Lightning (Lightning Overload)
+	[32176]  = 32175,		-- Stormstrike
 
   -- Warlock (Damage)
   [27285]  = 27243,    -- Seed of Corruption (Explosion)

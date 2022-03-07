@@ -89,7 +89,7 @@ addon.merges = {
 	[774]    = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (Normal)
 	[64801]  = CreateMergeSpellEntry("DRUID"),			-- Rejuvenation (First tick)
 	[48445]  = CreateMergeSpellEntry("DRUID"),			-- Tranquility
-	[48438]  = CreateMergeSpellEntry("DRUID", 3),		-- Wild Growth
+	[48438]  = CreateMergeSpellEntry("DRUID", 1),		-- Wild Growth
 
 -- hunter
   [49048]  = CreateMergeSpellEntry("HUNTER", .5),      -- Multi-Shot
@@ -181,31 +181,34 @@ addon.merges = {
 -- shaman (healing)
   [55459]  = CreateMergeSpellEntry("SHAMAN", .5),      -- Chain Heal
   [52042]  = CreateMergeSpellEntry("SHAMAN", 10),      -- Healing Stream Totem
-  [52000]  = CreateMergeSpellEntry("SHAMAN"),          -- Earthliving
-  [61295]  = CreateMergeSpellEntry("SHAMAN"),          -- Riptide (Instant & HoT)
-  [73921]  = CreateMergeSpellEntry("SHAMAN"),          -- Healing Rain
+	[52000]  = CreateMergeSpellEntry("SHAMAN"),          -- Earthliving
+	[61295]  = CreateMergeSpellEntry("SHAMAN"),          -- Riptide (Instant & HoT)
+	[73921]  = CreateMergeSpellEntry("SHAMAN"),          -- Healing Rain
 
 -- warlock (damage)
   [27243]  = CreateMergeSpellEntry("WARLOCK"),          -- Seed of Corruption (DoT)
   [47834]  = CreateMergeSpellEntry("WARLOCK"),          -- Seed of Corruption (Explosion)
-  [172]    = CreateMergeSpellEntry("WARLOCK"),          -- Corruption
+	[172]    = CreateMergeSpellEntry("WARLOCK", .5),          -- Corruption
   [43813]  = CreateMergeSpellEntry("WARLOCK"),          -- Corruption (Soulburn: Seed of Corruption)
-  [30108]  = CreateMergeSpellEntry("WARLOCK"),          -- Unstable Affliction
-  [348]    = CreateMergeSpellEntry("WARLOCK"),          -- Immolate
-  [980]    = CreateMergeSpellEntry("WARLOCK"),          -- Bane of Agony
-  [47818]  = CreateMergeSpellEntry("WARLOCK", 6),       -- Rain of Fire
-  [47822]  = CreateMergeSpellEntry("WARLOCK"),          -- Hellfire Effect
+	[30108]  = CreateMergeSpellEntry("WARLOCK", .5),          -- Unstable Affliction
+	[348]    = CreateMergeSpellEntry("WARLOCK"),          -- Immolate
+	[980]    = CreateMergeSpellEntry("WARLOCK", .5),          -- Bane of Agony
+	[42223]  = CreateMergeSpellEntry("WARLOCK", 1),       -- Rain of Fire
+	[5857]  = CreateMergeSpellEntry("WARLOCK"),          -- Hellfire Effect
   [61291]  = CreateMergeSpellEntry("WARLOCK", .5),      -- Shadowflame (shadow direct damage)
   [61290]  = CreateMergeSpellEntry("WARLOCK"),          -- Shadowflame (fire dot)
   [50590]  = CreateMergeSpellEntry("WARLOCK", 11),      -- Immolation Aura
   [47994]  = CreateMergeSpellEntry("WARLOCK"),          -- Cleave (Felguard)
   [20153]  = CreateMergeSpellEntry("WARLOCK"),          -- Immolation (Infrenal)
+	[85421]  = CreateMergeSpellEntry("WARLOCK", .5),			-- Burning Embers (Imp)
+	[30283]  = CreateMergeSpellEntry("WARLOCK"),			-- Shadowfury
+	[85455]  = CreateMergeSpellEntry("WARLOCK", .5),			-- Bane of Havoc
 
 -- warlock (healing)
-  [47893]  = CreateMergeSpellEntry("WARLOCK", 10),      -- Fel Armor
-  [63106]  = CreateMergeSpellEntry("WARLOCK"),          -- Siphon Life
+	[96379]  = CreateMergeSpellEntry("WARLOCK", 10),      -- Fel Armor
+	[63106]  = CreateMergeSpellEntry("WARLOCK"),          -- Siphon Life
   [54181]  = CreateMergeSpellEntry("WARLOCK"),          -- Fel Synergy
-  [47857]  = CreateMergeSpellEntry("WARLOCK"),          -- Drain Life
+	[89653]  = CreateMergeSpellEntry("WARLOCK"),          -- Drain Life
   [30294]  = CreateMergeSpellEntry("WARLOCK"),          -- Soul Leech
 
 -- warrior

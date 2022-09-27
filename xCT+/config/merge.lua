@@ -47,14 +47,15 @@ addon.merges = {
 	[72672] = CreateMergeSpellEntry("ITEM", 0.5, "Mutated Plague (Putricide)"),
 	[89087] = CreateMergeSpellEntry("ITEM", 3, "Darkmoon Card: Hurricane"),
 	[74555] = CreateMergeSpellEntry("ITEM", 3, "Dense Embersilk Bandage"),
+	[59913] = CreateMergeSpellEntry("ITEM", 3, "Swift Hand of Justice (Heirloom)"),
 
 
 -- death knight (damage)
 	[55050]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Heart Strike
 	[55095]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Frost Fever
 	[55078]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Blood Plague
-  [55536]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Unholy Blight
-  [49941]  = CreateMergeSpellEntry("DEATHKNIGHT", .5),      -- Blood Boil
+	[50536]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Unholy Blight
+	[48721]  = CreateMergeSpellEntry("DEATHKNIGHT", .5),      -- Blood Boil
   [47468]  = CreateMergeSpellEntry("DEATHKNIGHT", 4),       -- Claw (Army of the Dead)
   [49184]  = CreateMergeSpellEntry("DEATHKNIGHT", .5),      -- Howling Blast
 	[52212]  = CreateMergeSpellEntry("DEATHKNIGHT"),          -- Death and Decay
@@ -94,7 +95,7 @@ addon.merges = {
 -- hunter
 	[2643]  = CreateMergeSpellEntry("HUNTER", .5),		-- Multi-Shot
 	[1978]   = CreateMergeSpellEntry("HUNTER", .5),		-- Serpent Sting
-	[88466]   = CreateMergeSpellEntry("HUNTER", .5),		-- Serpent Sting (Spread)
+	[88466]	= CreateMergeSpellEntry("HUNTER", .5),		-- Serpent Sting (Spread)
 	[83077]   = CreateMergeSpellEntry("HUNTER"),		-- Improved Serpent Sting
 	[13812]  = CreateMergeSpellEntry("HUNTER"),		-- Explosive Trap
 	[53301]  = CreateMergeSpellEntry("WARRIOR"),		-- Explosive Shot
@@ -102,6 +103,7 @@ addon.merges = {
 -- hunter (healing)
 
 	[54131]  = CreateMergeSpellEntry("WARRIOR",5),		-- Bloodthirsty
+	[136]  = CreateMergeSpellEntry("WARRIOR",5),		-- Mend Pet
 
 -- mage
 	[44461]  = CreateMergeSpellEntry("MAGE"),		-- Living Bomb (Explosion)
@@ -121,7 +123,7 @@ addon.merges = {
 	[1449]   = CreateMergeSpellEntry("MAGE", .5),		-- Arcane Explosion
 
 -- paladin (damage)
-	[2812]   = CreateMergeSpellEntry("PALADIN", .1),	-- Holy Wrath
+	[2812]   = CreateMergeSpellEntry("PALADIN", .5),	-- Holy Wrath
 	[53385]  = CreateMergeSpellEntry("PALADIN", .1),	-- Divine Storm
 	[96172]  = CreateMergeSpellEntry("PALADIN", .5),	-- Hand of Light
 	[31803]  = CreateMergeSpellEntry("PALADIN", 6),		-- Censure
@@ -135,11 +137,10 @@ addon.merges = {
 
 
 -- paladin (healing)
-	[54172]  = CreateMergeSpellEntry("PALADIN", .5),		-- Divine Storm
+	[54172]  = CreateMergeSpellEntry("PALADIN", .5),	-- Divine Storm
+	[85222]  = CreateMergeSpellEntry("PALADIN", .5),	-- Light of Dawn
 	[53652]  = CreateMergeSpellEntry("PALADIN"),		-- Beacon of Light
 	[20167]  = CreateMergeSpellEntry("PALADIN"),		-- Seal of Insight (Heal Effect)
-	[54968]  = CreateMergeSpellEntry("PALADIN", 1),		-- Holy Light Glyph AoE
-	[20267]  = CreateMergeSpellEntry("PALADIN", 5),		-- Judgement of light AoE
 	[82327]  = CreateMergeSpellEntry("PALADIN", 2),		-- Holy Radiance (HoT)
 	[86452]  = CreateMergeSpellEntry("PALADIN", 2),		-- Holy Radiance	
 	[86678]  = CreateMergeSpellEntry("PALADIN", 2),		-- Light of the Ancient Kings
@@ -227,10 +228,12 @@ addon.merges = {
 -- warrior
 	[845]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Cleave
   [46968]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Shockwave
-  [47502]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Thunder Clap
+	[6343]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Thunder Clap
+	[52174]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Heroic Leap
 	[50622]  = CreateMergeSpellEntry("WARRIOR"),          -- Bladestorm (Whirlwind)
   [1680]   = CreateMergeSpellEntry("WARRIOR"),          -- Whirlwind
 	[94009]  = CreateMergeSpellEntry("WARRIOR"),          -- Rend
+	[6572]  = CreateMergeSpellEntry("WARRIOR"),          -- Revenge
 	[12723]  = CreateMergeSpellEntry("WARRIOR"),          -- Sweeping Strikes
 	[12721]  = CreateMergeSpellEntry("WARRIOR"),          -- Deep Wounds
 

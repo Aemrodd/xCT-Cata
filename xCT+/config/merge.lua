@@ -48,6 +48,7 @@ addon.merges = {
 	[89087] = CreateMergeSpellEntry("ITEM", 3, "Darkmoon Card: Hurricane"),
 	[74555] = CreateMergeSpellEntry("ITEM", 3, "Dense Embersilk Bandage"),
 	[59913] = CreateMergeSpellEntry("ITEM", 3, "Swift Hand of Justice (Heirloom)"),
+	[90904] = CreateMergeSpellEntry("ITEM", .5, "Engulfing Flames (Dragon Grim Batol)"),
 
 
 -- death knight (damage)
@@ -190,6 +191,7 @@ addon.merges = {
 	[8050]  = CreateMergeSpellEntry("SHAMAN", 1),		-- Flame Shock
 	[25504]  = CreateMergeSpellEntry("SHAMAN", .5),		-- Windfury
 	[13376] = CreateMergeSpellEntry("SHAMAN", .5),		-- Fire Shield (Fire Elemental)
+	[77661] = CreateMergeSpellEntry("SHAMAN"),			-- Searing Flames (DoT)
 
 -- shaman (healing)
 	[1064]  = CreateMergeSpellEntry("SHAMAN", .1),		-- Chain Heal
@@ -227,15 +229,15 @@ addon.merges = {
 
 -- warrior
 	[845]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Cleave
-  [46968]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Shockwave
+	[46968]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Shockwave
 	[6343]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Thunder Clap
 	[52174]  = CreateMergeSpellEntry("WARRIOR", .5),      -- Heroic Leap
 	[50622]  = CreateMergeSpellEntry("WARRIOR"),          -- Bladestorm (Whirlwind)
   [1680]   = CreateMergeSpellEntry("WARRIOR"),          -- Whirlwind
-	[94009]  = CreateMergeSpellEntry("WARRIOR"),          -- Rend
+	[94009]  = CreateMergeSpellEntry("WARRIOR", 5),          -- Rend
 	[6572]  = CreateMergeSpellEntry("WARRIOR"),          -- Revenge
 	[12723]  = CreateMergeSpellEntry("WARRIOR"),          -- Sweeping Strikes
-	[12721]  = CreateMergeSpellEntry("WARRIOR"),          -- Deep Wounds
+	[12721]  = CreateMergeSpellEntry("WARRIOR", 5),          -- Deep Wounds
 
 -- warrior (healing)
   [23880]  = CreateMergeSpellEntry("WARRIOR"),          -- Bloodthirst
